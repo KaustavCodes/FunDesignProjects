@@ -18,8 +18,3 @@ Feel free to:
 Fork this repository: Create your own copy to modify and experiment with the projects.
 Add Your Own Projects: Contribute your own fun design projects using JavaScript and CSS! Pull requests are welcome.
 Let's make the web a more playful place!
-
-Note:
-
-Replace <your-username> with your actual GitHub username.
-You can add a brief description for each project under the "What's Inside?" section.
