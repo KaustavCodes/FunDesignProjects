@@ -3,8 +3,9 @@
 Clone the Repository:
 
 Bash
-git clone https://github.com/<your-username>/Fun-Design-Projects.git
-Use code with caution.
+git clone https://github.com/KaustavCodes/FunDesignProjects.git
+
+Word of warning: Use code with caution. These are just demos and if you intend to use the code in production please use at your own risk.
 
 Open the Project:
 
