@@ -7,12 +7,13 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <h1>Step Progress</h1>
+    <h1 id="pgHeader">Step Progress</h1>
 
 
     <div class="container">
 
         <div class="step-container">
+            <div class="progress-bar" id="progress"></div>
             <div class="step active">
                 <div class="step-circle">1</div>
                 <div class="step-title">Step 1</div>
@@ -32,10 +33,10 @@
         </div>
 
         <div class="button-container">
-            <button class="btn disabled">
+            <button class="btn disabled" id="prev">
                 Previous
             </button>
-            <button class="btn">
+            <button class="btn" id="next">
                 Next
             </button>
         </div>

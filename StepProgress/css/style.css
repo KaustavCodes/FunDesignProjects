@@ -4,3 +4,107 @@ body {
     font-style: normal;
     font-size: 14px;
 }
+
+#pgHeader {
+    font-size: 24px;
+    width: 100%;
+    text-align: center;
+    display: block;
+    margin-top: 50px;
+}
+
+:root {
+    --line-border-fill: #05b17d;
+    --line-border-empty: rgb(108 108 108);
+}
+
+.container {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 10%;
+}
+
+.step-container {
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    position: relative;
+}
+
+.step-container .step {
+    text-align: center;
+}
+
+.step-container .step .step-circle {
+    font-size: 20px;
+    font-weight: bold;
+    border: solid 3px var(--line-border-empty);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+}
+
+.step-container .step .step-title {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.step-container::before {
+    content: "";
+    width: 100%;
+    display: block;
+    height: 3px;
+    background-color: var(--line-border-empty);
+    position: absolute;
+    z-index: -1;
+    top:40%;
+    transform: translateY(-50%);
+    transition: width 0.5s ease-in;
+}
+
+
+.step-container .progress-bar {
+    width: 0%;
+    display: block;
+    height: 3px;
+    background-color: var(--line-border-fill);
+    position: absolute;
+    z-index: -1;
+    top:40%;
+    transform: translateY(-50%);
+    transition: width 0.5s ease-in;
+}
+
+.step-container .step.active .step-circle {
+    border-color: var(--line-border-fill);
+    transition: border-color 1s;
+}
+
+.step-container .step.active .step-title  {
+    color: var(--line-border-fill);
+    transition: color 1s;
+}
+
+.container .button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.container .button-container .btn {
+    background-color: var(--line-border-fill);
+    color: #ffffff;
+    border: 0px;
+    border-radius: 3px;
+    cursor: pointer;
+    padding: 8px 15px;
+}
+
+.container .button-container .btn.disabled {
+    background-color: var(--line-border-empty);
+    color: #ffffff;
+}

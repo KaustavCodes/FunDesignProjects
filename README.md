@@ -8,6 +8,9 @@ git clone https://github.com/KaustavCodes/FunDesignProjects.git
 Word of warning: Use code with caution. These are just demos and if you intend to use the code in production please use at your own risk.
 
 Open the Project:
+Project List:
+[Image Accordian] | (ImageAccordian/index.html)
+[Step Progress] | (StepProgress/index.html)
 
 Navigate to the desired project folder and open the index.html file in your preferred code editor.
 
