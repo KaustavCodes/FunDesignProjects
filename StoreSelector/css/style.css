@@ -22,9 +22,8 @@ body {
 .store-container {
     width: 100%;
     overflow: hidden;
-    display: block;
-    height: 100vh;
     display: flex;
+    height: 100vh;
 }
 
 .store-container .store {
@@ -35,11 +34,11 @@ body {
     padding: 10px;
     border-bottom: 1px solid #ccc;
     transition: width 0.5s;
+    content: "";
 }
 
-
 .store-container .store.left {
-    background: fixed url(../images/he.jpg) no-repeat;
+    background: fixed url(../images/he.jpg) no-repeat; 
 }
 
 .store-container .store.right {
@@ -48,5 +47,5 @@ body {
 
 
 .store-container .store:hover {
-    width: 100%;
+    width: 350%;
 }
